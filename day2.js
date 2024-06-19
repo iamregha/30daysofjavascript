@@ -4,3 +4,5 @@ let a = 3
 let b = 2
 
 console.log(`The sum of ${a} and ${b} is ${a+b}`) // Injecting the data dynamically
+
+console.log(`${a} is greater than ${b}: ${a > b}`)
