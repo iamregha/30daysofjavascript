@@ -9,3 +9,6 @@ console.log(`The sum of ${a} and ${b} is ${a+b}`) // Injecting the data dynamica
 console.log(`${a} is greater than ${b}: ${a > b}`)
 
 console.log(js.length)
+
+let firstLetter = string[0]
+console.log(firstLetter)
