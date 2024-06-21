@@ -10,5 +10,7 @@ console.log(`${a} is greater than ${b}: ${a > b}`)
 
 console.log(js.length)
 
-let firstLetter = js[0,4,6]
+let firstLetter = js[0]
 console.log(firstLetter)
+let lastIndex = js.length-1
+console.log(js[lastIndex])
