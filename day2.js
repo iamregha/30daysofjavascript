@@ -14,3 +14,5 @@ let firstLetter = js[0]
 console.log(firstLetter)
 let lastIndex = js.length-1
 console.log(js[lastIndex])
+console.log(js.toUpperCase())
+console.log(js.substring(4,10))
