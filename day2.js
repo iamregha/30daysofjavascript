@@ -16,3 +16,8 @@ let lastIndex = js.length-1
 console.log(js[lastIndex])
 console.log(js.toUpperCase())
 console.log(js.substring(4,10))
+
+let sentence = "I love JavaScript as a Language"
+
+console.log(sentence.charAt(5))
+console.log(sentence.charCodeAt(5))
