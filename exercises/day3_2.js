@@ -11,4 +11,6 @@ let myAge = year.getFullYear() - Age
 
 if (year.getFullYear() - Age >= 18){
     alert(`You are ${myAge} now you can drive`)
-}
+} else{
+    alert(`You are ${myAge} and less than 18, you can't drive alone`)
+} 
