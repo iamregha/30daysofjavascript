@@ -9,8 +9,10 @@ let Age = prompt("Enter Birth year")
 let year = new Date()
 let myAge = year.getFullYear() - Age
 
-if (year.getFullYear() - Age >= 18){
+if (Age != "" && myAge >= 18){
     alert(`You are ${myAge} now you can drive`)
-} else{
+} else if(Age != "" && myAge < 18){
     alert(`You are ${myAge} and less than 18, you can't drive alone`)
+} else {
+    alert("The field can't be empty... please enter your birth year")
 } 
