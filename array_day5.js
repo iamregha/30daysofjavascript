@@ -6,4 +6,12 @@ const arr = sentc.split(' ')
 
 console.log(arr)
 
-console.log(arr[arr.length -1])
+lastIndex = arr.length - 1
+
+console.log(arr[lastIndex])
+
+arr[lastIndex] = 'Ghanian'
+
+console.log(arr[lastIndex])
+
+console.log(arr)
